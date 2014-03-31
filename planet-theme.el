@@ -194,6 +194,10 @@
    ;; minibuffer
    `(minibuffer-prompt                   ((t (:foreground ,planet-fg-2 :bold t :background nil))))
 
+   ;; ace-jump
+   `(ace-jump-face-background            ((,class (:inherit font-lock-comment-face))))
+   `(ace-jump-face-foreground            ((,class (:foreground ,planet-error))))
+
    ))
 
 ;;;###autoload
